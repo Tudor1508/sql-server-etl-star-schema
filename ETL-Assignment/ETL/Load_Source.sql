@@ -1,35 +1,143 @@
--- =========================================================
--- Load_Source.sql
--- RESPONSABIL: Membrul 2 (ETL Developer)
--- SCOP: Importa fisierele/datele brute in tabelele "src".
---       Aici NU se transforma nimic, doar se aduc datele
---       exact cum sunt in sursa originala.
--- DEPENDENTA: baza de date + schema "src" trebuie sa existe deja
---             (Membrul 1 - 01_CreateDatabase.sql, 02_SourceSchema.sql)
--- =========================================================
 USE ETL_Assignment;
 GO
 
--- OPTIUNEA A: daca aveti fisiere CSV/Excel, folositi Import Wizard
--- din SSMS (click-dreapta pe baza de date -> Tasks -> Import Data)
--- si mapati direct pe tabelele src.*
+TRUNCATE TABLE src.Timesheets;
+GO
 
--- OPTIUNEA B: daca introduceti manual date de test, exemplu:
--- INSERT INTO src.Timesheets (employee_id, work_date, project_name, hours_worked)
--- VALUES (101, '2026-07-01', 'Project Alpha', 8.0);
+BULK INSERT src.Timesheets
+FROM '/var/opt/mssql/import/Timesheets.csv'
+WITH
+(
+    FORMAT = 'CSV',
+    FIRSTROW = 2,
+    FIELDQUOTE = '"',
+    FIELDTERMINATOR = ';',
+    ROWTERMINATOR = '0x0a',
+    CODEPAGE = 'RAW',
+    TABLOCK
+);
+GO
 
--- INSERT INTO src.Absences (employee_id, absence_date, absence_type)
--- VALUES (101, '2026-07-02', 'Sick Leave');
+SELECT COUNT(*) AS ImportedRows
+FROM src.Timesheets;
+GO
 
--- INSERT INTO src.TrainingAttendance (employee_id, training_date, training_name)
--- VALUES (101, '2026-07-03', 'SQL Fundamentals');
+TRUNCATE TABLE src.TrainingAttendance;
+GO
 
--- INSERT INTO src.EmployeeMaster (employee_id, full_name, grade, discipline, line_manager, delivery_unit)
--- VALUES (101, 'Popescu Ion', 'Junior', 'Data Engineering', 'Andreea Bilboreanu', 'CLD - Data & AI');
+BULK INSERT src.TrainingAttendance
+FROM '/var/opt/mssql/import/Training_Attendance_TRN001_SQL_Fundamentals.csv'
+WITH
+(
+    FORMAT = 'CSV',
+    FIRSTROW = 2,
+    FIELDQUOTE = '"',
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '0x0a',
+    CODEPAGE = 'RAW',
+    TABLOCK
+);
+GO
 
--- TODO Membrul 2: inlocuiti exemplele de mai sus cu datele reale
--- (sau date de test consistente) pentru toate cele 5 surse.
+BULK INSERT src.TrainingAttendance
+FROM '/var/opt/mssql/import/Training_Attendance_TRN002_Azure_Data_Factory_Fundamentals.csv'
+WITH
+(
+    FORMAT = 'CSV',
+    FIRSTROW = 2,
+    FIELDQUOTE = '"',
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '0x0a',
+    CODEPAGE = 'RAW',
+    TABLOCK
+);
+GO
 
--- ATENTIE la src.DUExamSchedule_Raw: daca fisierul sursa are
--- o coloana per data (matrice), aici doar il importati asa cum e.
--- Transformarea in format tabelar se face in Load_Staging.sql.
+SELECT
+    training_id,
+    COUNT(*) AS Attendance
+FROM src.TrainingAttendance
+GROUP BY training_id;
+GO
+
+TRUNCATE TABLE src.Absences;
+GO
+
+BULK INSERT src.Absences
+FROM '/var/opt/mssql/import/Absences_Absences.csv'
+WITH
+(
+    FORMAT='CSV',
+    FIRSTROW=2,
+    FIELDTERMINATOR=',',
+    ROWTERMINATOR='0x0a',
+    TABLOCK
+);
+GO
+
+TRUNCATE TABLE src.EmployeeMaster;
+GO
+
+BULK INSERT src.EmployeeMaster
+FROM '/var/opt/mssql/import/Employee_Master_Data_EmployeeMaster.csv'
+WITH
+(
+    FORMAT='CSV',
+    FIRSTROW=2,
+    FIELDTERMINATOR=',',
+    ROWTERMINATOR='0x0a',
+    TABLOCK
+);
+GO
+
+TRUNCATE TABLE src.DUExamSchedule_Raw;
+GO
+
+BULK INSERT src.DUExamSchedule_Raw
+FROM '/var/opt/mssql/import/DU_Exam_Absence_Schedule_Schedule_Matrix.csv'
+WITH
+(
+    FORMAT='CSV',
+    FIRSTROW=2,
+    FIELDTERMINATOR=',',
+    ROWTERMINATOR='0x0a',
+    TABLOCK
+);
+GO
+
+SELECT 'Timesheets' AS TableName, COUNT(*) AS RowsLoaded
+FROM src.Timesheets
+
+UNION ALL
+
+SELECT 'Absences', COUNT(*)
+FROM src.Absences
+
+UNION ALL
+
+SELECT 'TrainingAttendance', COUNT(*)
+FROM src.TrainingAttendance
+
+UNION ALL
+
+SELECT 'EmployeeMaster', COUNT(*)
+FROM src.EmployeeMaster
+
+UNION ALL
+
+SELECT 'DUExamSchedule_Raw', COUNT(*)
+FROM src.DUExamSchedule_Raw;
+GO
+
+SELECT TOP (10) *
+FROM src.Timesheets
+ORDER BY employee_id, work_date;
+
+SELECT TOP (10) *
+FROM src.TrainingAttendance
+ORDER BY training_id, employee_name;
+
+SELECT TOP (20) *
+FROM src.EmployeeMaster
+ORDER BY employee_id, role_start_date;
+

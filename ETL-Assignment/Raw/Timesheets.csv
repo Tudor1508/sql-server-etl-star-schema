@@ -1,0 +1,297 @@
+﻿employee_id;work_date;project_name;hours_worked
+1001;2026-07-01;Regulatory Reporting;8.0
+1001;2026-07-09;Regulatory Reporting;7.5
+1001;2026-07-14;Claims Data Migration;6.0
+1001;2026-07-15;Demand Forecasting;8.0
+1001;2026-07-20;Claims Data Migration;4.0
+1001;2026-07-24;Internal Automation;8.0
+1001;2026-07-27;Internal Automation;8.0
+1001;2026-07-29;Claims Data Migration;8.0
+1002;2026-07-01;Data Quality Improvement;4.0
+1002;2026-07-07;Enterprise Data Platform;8.0
+1002;2026-07-10;Regulatory Reporting;7.5
+1002;2026-07-13;Customer Data Platform;8.0
+1002;2026-07-17;Demand Forecasting;8.0
+1002;2026-07-24;Enterprise Data Platform;8.0
+1002;2026-07-29;Customer Data Platform;6.0
+1002;2026-07-30;Retail Data Warehouse;8.0
+1002;2026-07-31;Retail Data Warehouse;8.0
+1003;2026-07-07;Data Quality Improvement;8.0
+1003;2026-07-08;Demand Forecasting;8.0
+1003;2026-07-09;Internal Automation;7.5
+1003;2026-07-10;Customer Data Platform;7.5
+1003;2026-07-13;Internal Automation;9.0
+1003;2026-07-15;Claims Data Migration;8.0
+1003;2026-07-16;Enterprise Data Platform;6.0
+1003;2026-07-17;Demand Forecasting;8.0
+1003;2026-07-21;Regulatory Reporting;7.5
+1003;2026-07-23;Customer Data Platform;9.0
+1003;2026-07-24;Demand Forecasting;8.0
+1003;2026-07-28;Internal Automation;8.0
+1004;2026-07-03;Demand Forecasting;8.0
+1004;2026-07-06;Retail Data Warehouse;4.0
+1004;2026-07-07;Demand Forecasting;7.5
+1004;2026-07-08;Demand Forecasting;8.0
+1004;2026-07-09;Internal Automation;8.0
+1004;2026-07-16;Customer Data Platform;7.5
+1004;2026-07-23;Data Quality Improvement;8.0
+1004;2026-07-24;Enterprise Data Platform;9.0
+1004;2026-07-28;Claims Data Migration;8.0
+1004;2026-07-29;Customer Data Platform;8.0
+1004;2026-07-30;Claims Data Migration;7.5
+1005;2026-07-01;Retail Data Warehouse;8.0
+1005;2026-07-03;Enterprise Data Platform;6.0
+1005;2026-07-06;Regulatory Reporting;8.0
+1005;2026-07-14;Demand Forecasting;8.0
+1005;2026-07-16;Enterprise Data Platform;8.0
+1005;2026-07-23;Data Quality Improvement;8.0
+1005;2026-07-27;Retail Data Warehouse;6.0
+1005;2026-07-30;Data Quality Improvement;8.0
+1005;2026-07-31;Enterprise Data Platform;8.0
+1006;2026-07-03;Enterprise Data Platform;8.0
+1006;2026-07-08;Data Quality Improvement;8.0
+1006;2026-07-10;Claims Data Migration;8.0
+1006;2026-07-13;Data Quality Improvement;7.5
+1006;2026-07-14;Enterprise Data Platform;7.5
+1006;2026-07-15;Enterprise Data Platform;8.0
+1006;2026-07-22;Internal Automation;8.0
+1006;2026-07-31;Data Quality Improvement;7.5
+1007;2026-07-06;Demand Forecasting;7.5
+1007;2026-07-07;Claims Data Migration;8.0
+1007;2026-07-10;Regulatory Reporting;8.0
+1007;2026-07-13;Data Quality Improvement;8.0
+1007;2026-07-15;Internal Automation;8.0
+1007;2026-07-20;Enterprise Data Platform;4.0
+1007;2026-07-21;Enterprise Data Platform;8.0
+1007;2026-07-27;Data Quality Improvement;6.0
+1007;2026-07-28;Retail Data Warehouse;8.0
+1007;2026-07-29;Enterprise Data Platform;8.0
+1007;2026-07-30;Internal Automation;6.0
+1007;2026-07-31;Customer Data Platform;8.0
+1008;2026-07-01;Retail Data Warehouse;4.0
+1008;2026-07-07;Demand Forecasting;8.0
+1008;2026-07-08;Retail Data Warehouse;8.0
+1008;2026-07-13;Demand Forecasting;8.0
+1008;2026-07-15;Enterprise Data Platform;8.0
+1008;2026-07-20;Retail Data Warehouse;6.0
+1008;2026-07-22;Customer Data Platform;8.0
+1008;2026-07-23;Claims Data Migration;9.0
+1008;2026-07-24;Retail Data Warehouse;8.0
+1008;2026-07-27;Retail Data Warehouse;9.0
+1009;2026-07-01;Retail Data Warehouse;4.0
+1009;2026-07-02;Data Quality Improvement;9.0
+1009;2026-07-03;Enterprise Data Platform;8.0
+1009;2026-07-07;Enterprise Data Platform;8.0
+1009;2026-07-08;Demand Forecasting;8.0
+1009;2026-07-09;Enterprise Data Platform;8.0
+1009;2026-07-14;Customer Data Platform;8.0
+1009;2026-07-20;Claims Data Migration;8.0
+1009;2026-07-22;Enterprise Data Platform;4.0
+1009;2026-07-23;Data Quality Improvement;8.0
+1009;2026-07-27;Demand Forecasting;7.5
+1009;2026-07-30;Internal Automation;8.0
+1010;2026-07-02;Enterprise Data Platform;8.0
+1010;2026-07-03;Enterprise Data Platform;8.0
+1010;2026-07-09;Regulatory Reporting;8.0
+1010;2026-07-14;Claims Data Migration;9.0
+1010;2026-07-20;Internal Automation;8.0
+1010;2026-07-22;Retail Data Warehouse;8.0
+1010;2026-07-23;Retail Data Warehouse;4.0
+1010;2026-07-24;Claims Data Migration;7.5
+1010;2026-07-27;Demand Forecasting;8.0
+1010;2026-07-29;Data Quality Improvement;8.0
+1011;2026-07-07;Claims Data Migration;8.0
+1011;2026-07-09;Claims Data Migration;8.0
+1011;2026-07-14;Customer Data Platform;8.0
+1011;2026-07-15;Customer Data Platform;8.0
+1011;2026-07-16;Demand Forecasting;8.0
+1011;2026-07-17;Claims Data Migration;9.0
+1011;2026-07-24;Enterprise Data Platform;7.5
+1011;2026-07-30;Claims Data Migration;6.0
+1011;2026-07-31;Customer Data Platform;7.5
+1012;2026-07-01;Regulatory Reporting;8.0
+1012;2026-07-06;Internal Automation;8.0
+1012;2026-07-07;Enterprise Data Platform;7.5
+1012;2026-07-14;Customer Data Platform;7.5
+1012;2026-07-20;Customer Data Platform;8.0
+1012;2026-07-22;Demand Forecasting;6.0
+1012;2026-07-24;Customer Data Platform;8.0
+1012;2026-07-28;Retail Data Warehouse;7.5
+1012;2026-07-30;Regulatory Reporting;8.0
+1013;2026-07-03;Internal Automation;9.0
+1013;2026-07-08;Data Quality Improvement;8.0
+1013;2026-07-09;Retail Data Warehouse;8.0
+1013;2026-07-10;Data Quality Improvement;9.0
+1013;2026-07-13;Data Quality Improvement;9.0
+1013;2026-07-20;Retail Data Warehouse;6.0
+1013;2026-07-22;Regulatory Reporting;8.0
+1013;2026-07-27;Enterprise Data Platform;8.0
+1013;2026-07-28;Claims Data Migration;8.0
+1013;2026-07-29;Retail Data Warehouse;6.0
+1013;2026-07-30;Retail Data Warehouse;8.0
+1014;2026-07-01;Enterprise Data Platform;8.0
+1014;2026-07-07;Claims Data Migration;8.0
+1014;2026-07-10;Claims Data Migration;6.0
+1014;2026-07-13;Enterprise Data Platform;8.0
+1014;2026-07-14;Customer Data Platform;8.0
+1014;2026-07-16;Enterprise Data Platform;9.0
+1014;2026-07-17;Regulatory Reporting;8.0
+1014;2026-07-21;Enterprise Data Platform;8.0
+1014;2026-07-24;Regulatory Reporting;8.0
+1014;2026-07-28;Demand Forecasting;8.0
+1014;2026-07-31;Customer Data Platform;4.0
+1015;2026-07-01;Enterprise Data Platform;7.5
+1015;2026-07-06;Regulatory Reporting;7.5
+1015;2026-07-17;Claims Data Migration;8.0
+1015;2026-07-21;Demand Forecasting;8.0
+1015;2026-07-22;Customer Data Platform;4.0
+1015;2026-07-23;Regulatory Reporting;8.0
+1015;2026-07-27;Regulatory Reporting;8.0
+1015;2026-07-30;Enterprise Data Platform;8.0
+1016;2026-07-10;Enterprise Data Platform;8.0
+1016;2026-07-13;Data Quality Improvement;8.0
+1016;2026-07-14;Claims Data Migration;8.0
+1016;2026-07-15;Regulatory Reporting;8.0
+1016;2026-07-17;Internal Automation;8.0
+1016;2026-07-21;Customer Data Platform;8.0
+1016;2026-07-22;Retail Data Warehouse;8.0
+1016;2026-07-24;Customer Data Platform;8.0
+1016;2026-07-29;Claims Data Migration;8.0
+1017;2026-07-01;Retail Data Warehouse;8.0
+1017;2026-07-02;Claims Data Migration;8.0
+1017;2026-07-08;Regulatory Reporting;8.0
+1017;2026-07-10;Internal Automation;8.0
+1017;2026-07-13;Customer Data Platform;8.0
+1017;2026-07-15;Customer Data Platform;8.0
+1017;2026-07-16;Claims Data Migration;8.0
+1017;2026-07-20;Enterprise Data Platform;8.0
+1017;2026-07-23;Claims Data Migration;6.0
+1017;2026-07-28;Customer Data Platform;9.0
+1018;2026-07-02;Data Quality Improvement;9.0
+1018;2026-07-06;Customer Data Platform;8.0
+1018;2026-07-16;Retail Data Warehouse;9.0
+1018;2026-07-21;Data Quality Improvement;8.0
+1018;2026-07-24;Regulatory Reporting;4.0
+1018;2026-07-27;Regulatory Reporting;7.5
+1018;2026-07-29;Customer Data Platform;8.0
+1018;2026-07-30;Customer Data Platform;8.0
+1018;2026-07-31;Demand Forecasting;8.0
+1019;2026-07-08;Enterprise Data Platform;8.0
+1019;2026-07-10;Internal Automation;7.5
+1019;2026-07-22;Retail Data Warehouse;8.0
+1019;2026-07-23;Internal Automation;4.0
+1019;2026-07-24;Regulatory Reporting;8.0
+1019;2026-07-28;Claims Data Migration;8.0
+1019;2026-07-30;Claims Data Migration;7.5
+1019;2026-07-31;Enterprise Data Platform;8.0
+1020;2026-07-01;Retail Data Warehouse;7.5
+1020;2026-07-02;Data Quality Improvement;8.0
+1020;2026-07-03;Claims Data Migration;8.0
+1020;2026-07-08;Enterprise Data Platform;8.0
+1020;2026-07-13;Regulatory Reporting;7.5
+1020;2026-07-16;Internal Automation;7.5
+1020;2026-07-17;Data Quality Improvement;6.0
+1020;2026-07-21;Enterprise Data Platform;8.0
+1020;2026-07-22;Enterprise Data Platform;8.0
+1020;2026-07-29;Customer Data Platform;6.0
+1020;2026-07-30;Retail Data Warehouse;8.0
+1021;2026-07-01;Enterprise Data Platform;9.0
+1021;2026-07-08;Claims Data Migration;8.0
+1021;2026-07-10;Regulatory Reporting;8.0
+1021;2026-07-14;Data Quality Improvement;8.0
+1021;2026-07-17;Claims Data Migration;8.0
+1021;2026-07-27;Data Quality Improvement;8.0
+1021;2026-07-28;Claims Data Migration;6.0
+1021;2026-07-29;Demand Forecasting;4.0
+1022;2026-07-01;Regulatory Reporting;8.0
+1022;2026-07-07;Enterprise Data Platform;7.5
+1022;2026-07-10;Regulatory Reporting;8.0
+1022;2026-07-13;Demand Forecasting;8.0
+1022;2026-07-14;Data Quality Improvement;8.0
+1022;2026-07-17;Demand Forecasting;8.0
+1022;2026-07-20;Internal Automation;8.0
+1022;2026-07-21;Enterprise Data Platform;8.0
+1022;2026-07-29;Regulatory Reporting;8.0
+1023;2026-07-01;Enterprise Data Platform;8.0
+1023;2026-07-02;Internal Automation;8.0
+1023;2026-07-03;Demand Forecasting;7.5
+1023;2026-07-06;Internal Automation;8.0
+1023;2026-07-09;Enterprise Data Platform;8.0
+1023;2026-07-10;Data Quality Improvement;8.0
+1023;2026-07-14;Demand Forecasting;8.0
+1023;2026-07-15;Retail Data Warehouse;4.0
+1023;2026-07-17;Internal Automation;8.0
+1023;2026-07-24;Claims Data Migration;8.0
+1023;2026-07-29;Internal Automation;8.0
+1023;2026-07-31;Customer Data Platform;8.0
+1024;2026-07-02;Demand Forecasting;8.0
+1024;2026-07-06;Enterprise Data Platform;8.0
+1024;2026-07-13;Enterprise Data Platform;8.0
+1024;2026-07-14;Retail Data Warehouse;8.0
+1024;2026-07-15;Internal Automation;4.0
+1024;2026-07-16;Enterprise Data Platform;8.0
+1024;2026-07-20;Retail Data Warehouse;8.0
+1024;2026-07-23;Internal Automation;8.0
+1024;2026-07-24;Customer Data Platform;8.0
+1024;2026-07-27;Retail Data Warehouse;6.0
+1024;2026-07-28;Internal Automation;7.5
+1024;2026-07-31;Claims Data Migration;8.0
+1025;2026-07-01;Enterprise Data Platform;8.0
+1025;2026-07-02;Regulatory Reporting;8.0
+1025;2026-07-03;Enterprise Data Platform;8.0
+1025;2026-07-06;Customer Data Platform;8.0
+1025;2026-07-09;Regulatory Reporting;6.0
+1025;2026-07-16;Claims Data Migration;8.0
+1025;2026-07-22;Internal Automation;8.0
+1025;2026-07-23;Regulatory Reporting;6.0
+1025;2026-07-24;Retail Data Warehouse;8.0
+1025;2026-07-30;Data Quality Improvement;8.0
+1025;2026-07-31;Claims Data Migration;8.0
+1026;2026-07-03;Claims Data Migration;8.0
+1026;2026-07-06;Data Quality Improvement;6.0
+1026;2026-07-07;Regulatory Reporting;8.0
+1026;2026-07-10;Customer Data Platform;8.0
+1026;2026-07-16;Enterprise Data Platform;8.0
+1026;2026-07-20;Customer Data Platform;8.0
+1026;2026-07-21;Internal Automation;8.0
+1026;2026-07-27;Demand Forecasting;8.0
+1027;2026-07-01;Internal Automation;8.0
+1027;2026-07-06;Retail Data Warehouse;8.0
+1027;2026-07-07;Regulatory Reporting;8.0
+1027;2026-07-08;Regulatory Reporting;8.0
+1027;2026-07-10;Demand Forecasting;8.0
+1027;2026-07-14;Demand Forecasting;8.0
+1027;2026-07-16;Claims Data Migration;8.0
+1027;2026-07-17;Demand Forecasting;8.0
+1027;2026-07-20;Demand Forecasting;4.0
+1027;2026-07-21;Demand Forecasting;8.0
+1027;2026-07-22;Demand Forecasting;8.0
+1027;2026-07-23;Data Quality Improvement;7.5
+1028;2026-07-01;Enterprise Data Platform;7.5
+1028;2026-07-06;Regulatory Reporting;8.0
+1028;2026-07-10;Internal Automation;8.0
+1028;2026-07-13;Data Quality Improvement;8.0
+1028;2026-07-14;Regulatory Reporting;8.0
+1028;2026-07-16;Internal Automation;9.0
+1028;2026-07-21;Data Quality Improvement;8.0
+1028;2026-07-23;Internal Automation;8.0
+1028;2026-07-29;Enterprise Data Platform;8.0
+1029;2026-07-01;Customer Data Platform;8.0
+1029;2026-07-02;Enterprise Data Platform;6.0
+1029;2026-07-13;Internal Automation;8.0
+1029;2026-07-14;Demand Forecasting;8.0
+1029;2026-07-16;Retail Data Warehouse;4.0
+1029;2026-07-20;Retail Data Warehouse;6.0
+1029;2026-07-21;Enterprise Data Platform;7.5
+1029;2026-07-22;Data Quality Improvement;9.0
+1029;2026-07-27;Customer Data Platform;6.0
+1029;2026-07-28;Regulatory Reporting;8.0
+1029;2026-07-31;Retail Data Warehouse;8.0
+1030;2026-07-02;Customer Data Platform;8.0
+1030;2026-07-03;Demand Forecasting;8.0
+1030;2026-07-06;Enterprise Data Platform;8.0
+1030;2026-07-07;Data Quality Improvement;8.0
+1030;2026-07-17;Customer Data Platform;7.5
+1030;2026-07-27;Claims Data Migration;8.0
+1030;2026-07-30;Claims Data Migration;8.0
+1030;2026-07-31;Customer Data Platform;8.0

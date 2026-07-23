@@ -1,0 +1,52 @@
+﻿employee_id,full_name,grade,discipline,line_manager,delivery_unit,role_start_date
+1001,Ilie Vlad,Lead,Quality Assurance,Enache Bianca,Healthcare,2021-10-01
+1001,Ilie Vlad,Manager,Quality Assurance,Enache Bianca,Healthcare,2024-03-01
+1002,Mocanu Raluca,Senior,Project Management,Enache Bianca,Healthcare,2022-04-01
+1002,Mocanu Raluca,Senior,Project Management,Enache Bianca,Public Sector,2024-11-01
+1003,Rusu Vlad,Lead,Business Analysis,Barbu Gabriela,Public Sector,2023-09-01
+1003,Rusu Vlad,Lead,Business Analysis,Barbu Gabriela,Insurance,2025-07-01
+1004,Barbu Gabriela,Lead,Software Engineering,Ilie Vlad,Banking,2023-08-01
+1005,Enache Bianca,Lead,Software Engineering,Rusu Vlad,Insurance,2022-09-01
+1005,Enache Bianca,Manager,Software Engineering,Rusu Vlad,Insurance,2025-07-01
+1006,Nistor Cristina,Associate,Software Engineering,Ilie Vlad,Public Sector,2023-09-01
+1007,Lazar Andreea,Associate,Quality Assurance,Barbu Gabriela,Insurance,2022-02-01
+1007,Lazar Andreea,Associate,Quality Assurance,Ilie Vlad,Insurance,2025-08-01
+1008,Rusu Diana,Junior,Project Management,Mocanu Raluca,Public Sector,2021-02-01
+1009,Barbu Andrei,Junior,Quality Assurance,Enache Bianca,Healthcare,2021-10-01
+1009,Barbu Andrei,Associate,Quality Assurance,Enache Bianca,Healthcare,2024-04-01
+1009,Barbu Andrei,Associate,Quality Assurance,Rusu Vlad,Healthcare,2026-01-01
+1010,Stan Mihai,Junior,Data Engineering,Enache Bianca,Retail,2022-12-01
+1010,Stan Mihai,Junior,Business Analysis,Enache Bianca,Retail,2024-09-01
+1011,Stan Stefan,Senior,Data Analytics,Enache Bianca,Healthcare,2022-11-01
+1012,Popescu Diana,Junior,Data Analytics,Rusu Vlad,Healthcare,2022-03-01
+1012,Popescu Diana,Associate,Data Analytics,Rusu Vlad,Healthcare,2024-07-01
+1013,Ilie Andreea,Junior,Quality Assurance,Ilie Vlad,Banking,2023-06-01
+1013,Ilie Andreea,Junior,Quality Assurance,Ilie Vlad,Public Sector,2024-01-01
+1014,Matei Bogdan,Senior,Software Engineering,Rusu Vlad,Public Sector,2022-08-01
+1014,Matei Bogdan,Senior,Business Analysis,Rusu Vlad,Public Sector,2024-03-01
+1014,Matei Bogdan,Senior,Business Analysis,Enache Bianca,Public Sector,2026-05-01
+1015,Tudor Ionut,Senior,Data Analytics,Ilie Vlad,Internal Platforms,2021-04-01
+1015,Tudor Ionut,Lead,Data Analytics,Ilie Vlad,Internal Platforms,2024-01-01
+1016,Matei Maria,Associate,Project Management,Barbu Gabriela,Insurance,2021-03-01
+1016,Matei Maria,Associate,Data Analytics,Barbu Gabriela,Insurance,2024-09-01
+1017,Dumitrescu Raluca,Senior,Data Analytics,Rusu Vlad,Public Sector,2022-02-01
+1018,Dumitrescu Ana,Associate,Software Engineering,Rusu Vlad,Insurance,2022-08-01
+1019,Nistor Bianca,Associate,Software Engineering,Mocanu Raluca,Public Sector,2022-08-01
+1020,Munteanu Stefan,Junior,Business Analysis,Rusu Vlad,Healthcare,2021-04-01
+1020,Munteanu Stefan,Junior,Business Analysis,Rusu Vlad,Retail,2024-02-01
+1021,Marin Diana,Associate,Business Analysis,Mocanu Raluca,Internal Platforms,2022-03-01
+1021,Marin Diana,Associate,Data Engineering,Mocanu Raluca,Internal Platforms,2025-09-01
+1021,Marin Diana,Associate,Data Engineering,Rusu Vlad,Internal Platforms,2026-06-01
+1022,Munteanu Cristina,Senior,Software Engineering,Rusu Vlad,Healthcare,2021-02-01
+1022,Munteanu Cristina,Senior,Software Engineering,Rusu Vlad,Insurance,2025-02-01
+1023,Tudor Andrei,Junior,Project Management,Rusu Vlad,Banking,2021-11-01
+1023,Tudor Andrei,Junior,Project Management,Barbu Gabriela,Banking,2024-09-01
+1024,Serban Maria,Senior,Data Engineering,Rusu Vlad,Retail,2022-02-01
+1025,Dumitrescu Ioana,Junior,Quality Assurance,Barbu Gabriela,Retail,2021-02-01
+1025,Dumitrescu Ioana,Associate,Quality Assurance,Barbu Gabriela,Retail,2024-01-01
+1025,Dumitrescu Ioana,Senior,Quality Assurance,Barbu Gabriela,Retail,2026-03-01
+1026,Lazar Elena,Senior,Business Analysis,Rusu Vlad,Healthcare,2022-10-01
+1027,Diaconu Bianca,Senior,Project Management,Enache Bianca,Internal Platforms,2022-06-01
+1028,Enache Vlad,Senior,Data Analytics,Barbu Gabriela,Healthcare,2023-02-01
+1029,Barbu Raluca,Senior,Software Engineering,Rusu Vlad,Healthcare,2022-01-01
+1030,Matei Andreea,Senior,Project Management,Ilie Vlad,Public Sector,2022-05-01

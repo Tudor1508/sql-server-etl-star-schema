@@ -1,3 +1,4 @@
+
 -- =========================================================
 -- 01_CreateDatabase.sql
 -- RESPONSABIL: Membrul 1 (Database Architect)
